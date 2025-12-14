@@ -246,3 +246,30 @@ if uploaded_file is not None:
 
 else:
     st.info("Please upload an Excel file")
+    
+    
+    
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #0e1117;
+        color: #9aa0a6;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 14px;
+        z-index: 100;
+    }
+    </style>
+
+    <div class="footer">
+        © 2025 All rights reserved by <strong>Palash Dutta Banik</strong>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
